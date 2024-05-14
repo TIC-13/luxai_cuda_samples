@@ -122,6 +122,7 @@ int main() {
     delete[] a;
     delete[] b;
     delete[] c;
+    
     cudaFree(d_a);
     cudaFree(d_b);
     cudaFree(d_c);

@@ -58,7 +58,8 @@ void printMatrix(int *matrix, int rows, int cols) {
 int main() {
 
     int N;
-
+    
+    // OBS: teste entrada <10 vs >1000
     std::cout << "Digite o tamanho desejado para as dimensoes: " << std::endl;
     std::cin >> N;
 

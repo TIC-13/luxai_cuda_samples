@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
     cudaGetDeviceCount(&devCount);
     printf("Number of device: %d", devCount);
 
-    cudaDeviceProp devprop;
+    cudaDeviceProp deviceProp;
     cudaGetDeviceProperties(&deviceProp, 0);
     printf("%s using %d: %s\n", argv[0], 0, deviceProp.name);
 
